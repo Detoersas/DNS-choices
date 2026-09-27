@@ -8,9 +8,7 @@ And for a lot of people, that's completely fine.
 
 But DNS can be much more than just "the thing that turns a website name into an IP address."
 
-The resolver you choose can affect privacy, security, filtering, reliability, performance, and how much control you have over your network. DNS can also be used as an additional security layer to block known malicious domains, phishing infrastructure, trackers, unwanted content, or other categories of traffic before your device even attempts to connect. {"fallbackMarkdown":"(RFC Editor
-)","reference":{"matched_text":"","prefix":null,"start_idx":1223,"end_idx":1255,"safe_urls":["https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/","https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/?utm_source=chatgpt.com","https://www.rfc-editor.org/info/rfc8932/","https://www.rfc-editor.org/info/rfc8932/?utm_source=chatgpt.com"],"refs":[],"alt":"(RFC Editor
-)","prompt_text":null,"type":"grouped_webpages","error":null,"style":null,"items":[{"title":"RFC 8932: Recommendations for DNS Privacy Service Operators | RFC Editor","url":"https://www.rfc-editor.org/info/rfc8932/?utm_source=chatgpt.com","attribution":"RFC Editor","pub_date":1601510400,"snippet":"","attribution_segments":null,"supporting_websites":[{"title":"What is DNS filtering? | Secure DNS servers | Cloudflare","url":"https://www.cloudflare.com/learning/access-management/what-is-dns-filtering/?utm_source=chatgpt.com","pub_date":null,"snippet":"","attribution":"Cloudflare"}],"refs":[{"turn_index":0,"ref_type":"search","ref_index":0},{"turn_index":0,"ref_type":"search","ref_index":3}],"hue":null,"attributions":null}],"fallback_items":null,"status":"done"},"showLoginRequiredCard":false}
+The resolver you choose can affect privacy, security, filtering, reliability, performance, and how much control you have over your network. DNS can also be used as an additional security layer to block known malicious domains, phishing infrastructure, trackers, unwanted content, or other categories of traffic before your device even attempts to connect. RFC Editor
 
 That makes choosing a DNS provider less trivial than simply picking the address with the lowest ping.
 
@@ -18,9 +16,7 @@ Why should you care?
 
 Think of DNS as one of the first stops your traffic makes when you ask the internet for something.
 
-The resolver you use can potentially see the DNS queries being sent to it, which means the provider's privacy practices, logging policies, security practices, and business model actually matter. Encryption such as DNS-over-HTTPS (DoH) or DNS-over-TLS (DoT) can protect DNS traffic while it travels between you and the resolver, but it doesn't remove the need to trust the resolver itself. {"fallbackMarkdown":"(RFC Editor
-)","reference":{"matched_text":"","prefix":null,"start_idx":1874,"end_idx":1906,"safe_urls":["https://www.rfc-editor.org/info/rfc8932/","https://www.rfc-editor.org/info/rfc8932/?utm_source=chatgpt.com","https://www.rfc-editor.org/info/rfc9076/","https://www.rfc-editor.org/info/rfc9076/?utm_source=chatgpt.com"],"refs":[],"alt":"(RFC Editor
-)","prompt_text":null,"type":"grouped_webpages","error":null,"style":null,"items":[{"title":"RFC 8932: Recommendations for DNS Privacy Service Operators | RFC Editor","url":"https://www.rfc-editor.org/info/rfc8932/?utm_source=chatgpt.com","attribution":"RFC Editor","pub_date":1601510400,"snippet":"","attribution_segments":null,"supporting_websites":[{"title":"RFC 9076: DNS Privacy Considerations | RFC Editor","url":"https://www.rfc-editor.org/info/rfc9076/?utm_source=chatgpt.com","pub_date":null,"snippet":"","attribution":"RFC Editor"}],"refs":[{"turn_index":0,"ref_type":"search","ref_index":0},{"turn_index":0,"ref_type":"search","ref_index":8}],"hue":null,"attributions":null}],"fallback_items":null,"status":"done"},"showLoginRequiredCard":false}
+The resolver you use can potentially see the DNS queries being sent to it, which means the provider's privacy practices, logging policies, security practices, and business model actually matter. Encryption such as DNS-over-HTTPS (DoH) or DNS-over-TLS (DoT) can protect DNS traffic while it travels between you and the resolver, but it doesn't remove the need to trust the resolver itself. RFC Editor
 
 At the same time, different DNS services can make very different tradeoffs.
 
@@ -84,9 +80,7 @@ Before you choose, understand what you're choosing
 
 Changing DNS is easy.
 
-Understanding who you're handing your DNS queries to, what that provider does with them, what protections they actually provide, and what tradeoffs you're accepting is the part that deserves attention. {"fallbackMarkdown":"(RFC Editor
-)","reference":{"matched_text":"","prefix":null,"start_idx":4845,"end_idx":4877,"safe_urls":["https://www.internetsociety.org/resources/doc/2023/fact-sheet-encrypted-dns/","https://www.internetsociety.org/resources/doc/2023/fact-sheet-encrypted-dns/?utm_source=chatgpt.com","https://www.rfc-editor.org/info/rfc8932/","https://www.rfc-editor.org/info/rfc8932/?utm_source=chatgpt.com"],"refs":[],"alt":"(RFC Editor
-)","prompt_text":null,"type":"grouped_webpages","error":null,"style":null,"items":[{"title":"RFC 8932: Recommendations for DNS Privacy Service Operators | RFC Editor","url":"https://www.rfc-editor.org/info/rfc8932/?utm_source=chatgpt.com","attribution":"RFC Editor","pub_date":1601510400,"snippet":"","attribution_segments":null,"supporting_websites":[{"title":"Encrypted DNS Factsheet - Internet Society","url":"https://www.internetsociety.org/resources/doc/2023/fact-sheet-encrypted-dns/?utm_source=chatgpt.com","pub_date":null,"snippet":"","attribution":"Internet Society"}],"refs":[{"turn_index":0,"ref_type":"search","ref_index":0},{"turn_index":0,"ref_type":"search","ref_index":9}],"hue":null,"attributions":null}],"fallback_items":null,"status":"done"},"showLoginRequiredCard":false}
+Understanding who you're handing your DNS queries to, what that provider does with them, what protections they actually provide, and what tradeoffs you're accepting is the part that deserves attention. RFC Editor
 
 So if you're considering changing your DNS, don't just jump to a provider because someone said it's "fast," "private," or "secure."
 
