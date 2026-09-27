@@ -1,4 +1,4 @@
-DNS: The Part of Your Internet Connection You Probably Never Think About
+## DNS: The Part of Your Internet Connection You Probably Never Think About ##
 
 You use DNS every time you use the internet, whether you realize it or not.
 
