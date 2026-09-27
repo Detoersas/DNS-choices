@@ -12,7 +12,7 @@ The resolver you choose can affect privacy, security, filtering, reliability, pe
 
 That makes choosing a DNS provider less trivial than simply picking the address with the lowest ping.
 
-Why should you care?
+## Why should you care? ##
 
 Think of DNS as one of the first stops your traffic makes when you ask the internet for something.
 
@@ -28,7 +28,7 @@ Some combine several of these approaches.
 
 There isn't necessarily one configuration that makes sense for everyone.
 
-So... which one should you use?
+## So... which one should you use? ##
 
 That's where this wiki comes in.
 
@@ -38,29 +38,29 @@ Instead, the wiki breaks down the things that actually matter when comparing pro
 
 You'll find explanations and comparisons covering things such as:
 
-Privacy & logging — What information can a resolver see, what might be retained, and what the provider says it does with that information.
+* Privacy & logging — What information can a resolver see, what might be retained, and what the provider says it does with that information.
 
-Security — Malware, phishing, malicious-domain blocking, threat intelligence, and other security features.
+* Security — Malware, phishing, malicious-domain blocking, threat intelligence, and other security features.
 
-Filtering — How DNS-level blocking works and what you can actually control.
+* Filtering — How DNS-level blocking works and what you can actually control.
 
-Encryption — DoH, DoT, and what encrypting DNS does — and importantly, what it doesn't do.
+* Encryption — DoH, DoT, and what encrypting DNS does — and importantly, what it doesn't do.
 
-Performance & reliability — Why a resolver being fast isn't the only thing that matters.
+* Performance & reliability — Why a resolver being fast isn't the only thing that matters.
 
-Customization — Blocklists, allowlists, policies, categories, and per-device or per-network rules.
+* Customization — Blocklists, allowlists, policies, categories, and per-device or per-network rules.
 
-Transparency & trust — Who operates the service, what they disclose, and why the provider's policies matter.
+* Transparency & trust — Who operates the service, what they disclose, and why the provider's policies matter.
 
-Censorship & network restrictions — How DNS choices can interact with networks that interfere with or restrict DNS traffic.
+* Censorship & network restrictions — How DNS choices can interact with networks that interfere with or restrict DNS traffic.
 
-Technical differences — The stuff that becomes important once you go beyond the basic setup.
+* Technical differences — The stuff that becomes important once you go beyond the basic setup.
 
-Real-world tradeoffs — Because every additional feature can come with its own compromises.
+* Real-world tradeoffs — Because every additional feature can come with its own compromises.
 
 DNS is infrastructure. Infrastructure deserves a little more thought than simply copying an IP address from a random forum post.
 
-You don't need to be a networking expert
+## You don't need to be a networking expert ##
 
 If you don't know what a recursive resolver is, what DoH means, or why a DNS provider can see your queries, start with the beginner sections.
 
@@ -76,7 +76,7 @@ Advanced user: "What are this provider's transport options, logging practices, f
 
 Both questions are worth answering.
 
-Before you choose, understand what you're choosing
+## Before you choose, understand what you're choosing ##
 
 Changing DNS is easy.
 
